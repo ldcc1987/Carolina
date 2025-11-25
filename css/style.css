@@ -1,0 +1,74 @@
+footer {
+  background-color: black;
+  color: white;
+  width: 120%;
+  height: 200px;
+  margin-left: 0px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-right: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: -20px;
+}
+footer audio {
+  margin-bottom: 10px;
+}
+footer p {
+  text-align: center;
+  width: 100%;
+}
+footer nav {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+footer nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+h1 a {
+  color: rgba(122, 124, 128, 0.822);
+  font-size: 40px;
+}
+
+img {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.hero_imagen_1 img {
+  width: 340px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.texto {
+  font-size: 26px;
+}
+
+body {
+  background-image: linear-gradient(rgb(245, 245, 143), pink);
+  margin-left: 0;
+  margin-right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 10px 0px 10px;
+  font-family: "Parisienne", cursive;
+}
+body a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
