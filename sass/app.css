@@ -25,7 +25,7 @@ footer nav ul {
   list-style: none;
 }
 footer nav ul li {
-  color: red;
+  background-color: black;
 }
 footer nav ul li a {
   text-decoration: none;
@@ -60,8 +60,29 @@ img {
   font-size: 26px;
 }
 
+nav {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  list-style: none;
+}
+nav ul li {
+  background-color: antiquewhite;
+  border-radius: 20%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  padding: 2px 6px 2px 6px;
+}
+
 body {
-  background-image: linear-gradient(rgb(245, 245, 143), pink);
+  background-image: linear-gradient(antiquewhite, pink);
   margin-left: 0;
   margin-right: 0;
   margin-right: auto;
@@ -93,4 +114,14 @@ body audio {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+body h1 {
+  color: rgb(241, 187, 50);
+}
+body h1 a {
+  color: rgb(253, 181, 0);
+}
+body h2 {
+  text-align: center;
+  margin-top: -90px;
 }/*# sourceMappingURL=app.css.map */
