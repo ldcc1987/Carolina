@@ -44,3 +44,12 @@ body{
     margin-top: -90px;
   }
 }
+nav{
+  ul{
+    li:hover{
+      a{
+      color:pink;
+    }
+  }
+  }
+}

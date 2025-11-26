@@ -132,4 +132,8 @@ body h2 {
   margin-top: -90px;
 }
 
+nav ul li:hover a {
+  color: pink;
+}
+
 /*# sourceMappingURL=style.css.map */
