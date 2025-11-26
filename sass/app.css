@@ -1,6 +1,6 @@
 footer {
-  background-color: black;
-  color: white;
+  background-image: linear-gradient(pink, white);
+  color: black;
   height: 200px;
   margin-left: 0px;
   margin-left: -10px;
@@ -9,6 +9,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: -20px;
+  font-weight: 800;
 }
 footer p {
   text-align: center;
@@ -25,12 +26,14 @@ footer nav ul {
   list-style: none;
 }
 footer nav ul li {
-  background-color: black;
+  display: flex;
+  background-color: none;
+  justify-content: space-around;
 }
 footer nav ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 20px;
+  color: #AA6C39;
+  font-size: 18px;
 }
 
 h1 {
@@ -79,6 +82,7 @@ nav ul li a {
   color: black;
   font-size: 20px;
   padding: 2px 6px 2px 6px;
+  font-weight: 800;
 }
 
 body {
@@ -97,6 +101,7 @@ body p {
   margin-right: auto;
   font-size: 24px;
   text-align: center;
+  font-weight: 500;
 }
 body img {
   margin-left: auto;
@@ -104,6 +109,7 @@ body img {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+  margin-top: -20px;
 }
 body a {
   text-decoration: none;
@@ -116,10 +122,10 @@ body audio {
   margin-right: auto;
 }
 body h1 {
-  color: rgb(241, 187, 50);
+  color: #AA6C39;
 }
 body h1 a {
-  color: rgb(253, 181, 0);
+  color: #AA6C39;
 }
 body h2 {
   text-align: center;

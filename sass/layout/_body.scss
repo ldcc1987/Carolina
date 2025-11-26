@@ -13,6 +13,7 @@ body{
     margin-right: auto;
     font-size: 24px;
     text-align: center;
+    font-weight: 500;
   }
   img{
     margin-left: auto;
@@ -20,6 +21,7 @@ body{
     display: flex;
     justify-content: center;
     margin-bottom: 100px;
+    margin-top: -20px;
   }
   a{
     text-decoration: none;
@@ -32,9 +34,9 @@ body{
     margin-right: auto;
   }
   h1{
-    color: rgb(241, 187, 50);
+    color: #AA6C39;
     a{
-      color:rgb(253, 181, 0);
+      color:#AA6C39;
     }
   }
   h2{
